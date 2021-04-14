@@ -1,6 +1,10 @@
 # TCS Challenge
 Repositorio para el reto técnico de TCS.
 
+REST API Publicado:
+https://8yx5v00jg4.execute-api.us-east-1.amazonaws.com/production/
+
+**Leer Documentación de rutas**
 ## Tecnologías usadas
     - NodeJS 14.x
     - AWS-Serverless
@@ -22,7 +26,7 @@ Este es un API personalizado para poder crear y listar, teniendo en cuenta los a
  - ```GET api/v1/starships/:id``` obtiene *starships* por id
  - ```GET api/v1/starships/``` obtiene lista de *starships*
  - 
- ```
+ ```json
  POST api/v1/starships/add crea un nuevo starship
  - "creacion": DateTime (opcional)
  - "edicion": DateTime (opcional)
