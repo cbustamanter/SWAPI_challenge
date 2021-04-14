@@ -17,7 +17,7 @@ Repositorio para el reto técnico de TCS.
  - ```GET api/v1/planets/:id``` obtiene *planet* por id
  - ```GET api/v1/planets/``` obtiene lista de *planets*
 
-### *Starships API*
+#### *Starships API*
 Este es un API personalizado para poder crear y listar, teniendo en cuenta los atributos de SWAPI/starships
  - ```GET api/v1/starships/:id``` obtiene *starships* por id
  - ```GET api/v1/starships/``` obtiene lista de *starships*
