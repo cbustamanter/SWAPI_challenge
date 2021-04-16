@@ -2,7 +2,7 @@
 Repositorio para el reto técnico de TCS.
 
 REST API Publicado:
-https://8yx5v00jg4.execute-api.us-east-1.amazonaws.com/production/
+https://8yx5v00jg4.execute-api.us-east-1.amazonaws.com/production/api/v1/status
 
 **Leer Documentación de rutas**
 ## Tecnologías usadas
@@ -15,7 +15,7 @@ https://8yx5v00jg4.execute-api.us-east-1.amazonaws.com/production/
 ## Documentación de rutas
 #### *People API*
  - ```GET api/v1/people/:id``` obtiene *people* por id
- - ```GETapi/v1/people/``` obtiene lista de *people*
+ - ```GET api/v1/people/``` obtiene lista de *people*
 
 #### *Planets API*
  - ```GET api/v1/planets/:id``` obtiene *planet* por id
